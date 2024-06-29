@@ -1,10 +1,12 @@
 // first create a repo on github. you can also get your pat(personal access token) ready too
 
-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
+"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"
 
 git init
 git status
 git add .
+git status
+git commit 'version1'
 git config --global user.email "amadichile007@gmail.com"
 git config --global user.name "chilemati"
 git config --global user.password "past pat here" // git respects your pat more than your password
@@ -12,6 +14,11 @@ git commit -m 'first commit'
 git remote add origin repo.git
 git branch
 git push origin branchName
+ctrl + link (https://github.com/ugonnachidinmac/yt2_git_push1/security/secret-scanning/unblock-secret/2iZOtBKUQOHlAlvvn47Ogj6vAA8)
+login in to your github account
+select to test
+git push origin branchName
+go to your github account and refrensh the page
 
 //
 git status
