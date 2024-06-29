@@ -1,0 +1,22 @@
+// first create a repo on github. you can also get your pat(personal access token) ready too
+
+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
+
+git init
+git status
+git add .
+git config --global user.email "amadichile007@gmail.com"
+git config --global user.name "chilemati"
+git config --global user.password "past pat here" // git respects your pat more than your password
+git commit -m 'first commit'
+git remote add origin repo.git
+git branch
+git push origin branchName
+
+//
+git status
+git add .
+git commit -m 'second commit'
+git branch 'newBranchName'
+git checkout newBranchnName
+git push origin newBranchName
